@@ -1,0 +1,11 @@
+Projeto "Redes" - CloudSimExample1 (CloudSim 3.0.3)
+
+Abrir no NetBeans: Arquivo > Abrir Projeto > selecione a pasta "Redes".
+Se o NetBeans acusar biblioteca ausente: botao direito no projeto > Propriedades >
+Bibliotecas > Adicionar JAR/Pasta > lib/cloudsim-3.0.3.jar.
+Executar: botao direito em CloudSimExample1.java > Run File (Shift+F6).
+
+Linha de comando (JDK 8+):
+  javac -cp lib/cloudsim-3.0.3.jar -d out src/org/cloudbus/cloudsim/examples/CloudSimExample1.java
+  java  -cp out:lib/cloudsim-3.0.3.jar org.cloudbus.cloudsim.examples.CloudSimExample1
+  (no Windows, troque ":" por ";")
